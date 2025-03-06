@@ -1,0 +1,147 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.logo p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+header p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 96px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 32px;
+}
+
+li {
+    margin-bottom: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 48px;
+}
+
+.home {
+    width: 500px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: #3882F6;
+    color: #F9FAF8;
+    padding: 6px 8px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.items {
+    max-width: 200px;
+    padding-bottom: 64px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    color: #1F2937;
+    text-align: center;
+  }
+
+.section-three{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-family: light italic;
+    color: #1F2937 ;
+    padding: 100px;
+}
+
+.section-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.sign-up{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: #E5E7EB;
+    padding: 32px;
+    margin: 0;
+    border: none;
+    border-radius: 8px;
+}
+.description{
+    padding-right: 64px;
+    margin: 0px;
+}
+.description h2{
+    margin: 0;
+}
+.description p{
+    margin: 0;
+}
+.section-four button{
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+}
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    padding: 32px;
+}
